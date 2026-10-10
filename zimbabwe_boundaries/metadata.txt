@@ -1,0 +1,20 @@
+[general]
+name=Zimbabwe Boundaries
+qgisMinimumVersion=3.4
+qgisMaximumVersion=4.99
+description=Zimbabwe administrative boundaries: level 0 (country), level 1 (provinces), level 2 (districts) and level 3 (2018 wards), ready to add to the map or save as shapefiles.
+about=Gives you Zimbabwe's official administrative boundaries in one click, with no internet connection needed: the country outline, the 10 provinces, the 91 districts and the 1,961 wards of 2018 (the old ward boundaries, before the latest delimitation). Each layer carries the official P-codes and the names of the units above it. Filter by province and district, choose a coordinate system (WGS 84, UTM 35S, UTM 36S or any other), and add the layers to the map or save them as Shapefile, GeoPackage, GeoJSON or KML, optionally zipped. Data: Zimbabwe National Statistics Agency (ZIMSTAT) and OCHA ROSEA, Common Operational Dataset of administrative boundaries (COD-AB), valid from 11 September 2018, from the Humanitarian Data Exchange, licensed CC BY-IGO.
+version=1.0.2
+author=Map Tech (Pvt) Ltd t/a Zimgeo
+email=aldridge@zimgeo.co.zw
+homepage=https://github.com/zimgeozw/qgis-zimbabwe-boundaries
+tracker=https://github.com/zimgeozw/qgis-zimbabwe-boundaries/issues
+repository=https://github.com/zimgeozw/qgis-zimbabwe-boundaries
+category=Vector
+icon=icon.png
+tags=zimbabwe,boundaries,administrative,provinces,districts,wards,shapefile,adm0,adm1,adm2,adm3,pcodes
+experimental=False
+deprecated=False
+changelog=1.0.2 Works on older QGIS 3 versions (3.4 and later) and on QGIS 4.
+    1.0.1 Saving now works on QGIS versions before 3.20; landscape dialog; tidier field widths in saved files.
+    1.0.0 First release: levels 0 to 3 (wards from 2018), province and district filters, reprojection, Shapefile, GeoPackage, GeoJSON and KML export.

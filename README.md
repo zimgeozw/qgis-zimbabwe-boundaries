@@ -2,6 +2,8 @@
 
 A QGIS plugin by [Zimgeo](https://www.zimgeo.co.zw) that gives you Zimbabwe's administrative boundaries in one click, with no internet connection needed.
 
+**[Download the plugin (version 1.0.2)](https://github.com/zimgeozw/qgis-zimbabwe-boundaries/raw/main/download/zimbabwe_boundaries.zip)**  |  QGIS 3.4 to QGIS 4
+
 ![Map of Zimbabwe showing country, province, district and ward boundaries](docs/map.png)
 
 | Level | Layer | Features | Main fields |
@@ -25,7 +27,7 @@ Every layer also has `area_km2`, `valid_on` and `source`.
 
 ## Install
 
-1. Download `zimbabwe_boundaries.zip` from the [latest release](https://github.com/zimgeozw/qgis-zimbabwe-boundaries/releases/latest).
+1. **[Download zimbabwe_boundaries.zip (version 1.0.2)](https://github.com/zimgeozw/qgis-zimbabwe-boundaries/raw/main/download/zimbabwe_boundaries.zip)**
 2. In QGIS open **Plugins > Manage and Install Plugins > Install from ZIP**, choose the file and click **Install Plugin**.
 3. The tool appears on the toolbar and under **Vector > Zimbabwe boundaries**.
 
